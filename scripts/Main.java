@@ -1,4 +1,4 @@
-package conta_bancaria;
+package scripts;
 
 import java.util.Scanner;
 

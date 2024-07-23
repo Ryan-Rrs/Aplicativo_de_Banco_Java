@@ -1,4 +1,4 @@
-package conta_bancaria;
+package scripts;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -19,7 +19,7 @@ public class CreteAccount {
         String firstPassword = "00000000000";
         double firstBalance = 0;
         String firstKey = "00000000000";
-        
+
         listDB.add(new DB(firstPerson, firstCPF, firstPassword, firstBalance, firstKey));
 
         System.out.println("Create Account\n");
@@ -44,7 +44,7 @@ public class CreteAccount {
                 listDB.add(new DB(newPerson, newCPF, newPassword, newBalance, newKey));
                 System.out.println("User created successfully!");
             }
-        break;
+            break;
         }
 
     }

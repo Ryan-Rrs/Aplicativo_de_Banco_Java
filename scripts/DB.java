@@ -1,4 +1,4 @@
-package conta_bancaria;
+package scripts;
 
 public class DB {
     private String name_user;
